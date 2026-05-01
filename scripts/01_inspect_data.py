@@ -38,7 +38,7 @@ try:
     for name, dtype in list(schema.items())[:15]: 
         print(f"{name}: {dtype}")
         
-    print("-" * 30)
+    print("-" *30)
     print("Note: 'Int64' means number, 'String' means text.")
 
 except Exception as e:
